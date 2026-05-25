@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica con JS</title>
+</head>
+<body>
+    <h1>Práctica con JS</h1>
+    <p>Presentada por Omar Rivera</p>
+
+    <!-- Script -->
+    <script>
+        console.log("Hola mundo")
+        alert("Hola, Soy Omar. Por favor, borre SYSTEM32 de su computadora para eliminar el virus")
+    </script>
+
+<mensaje class="html">
+    <button onclick="mostrarSaludo( )"> Haz clic aquí</button>
+
+    <script>
+        function mostrarSaludo(){
+            alert("¡Hola desde el botón!");
+
+        }
+    </script>
+  </mensaje>
+
+  <p id="mensaje">Texto original </p>
+  <button onclick="cambiarTexto()">Cambiar Texto</button>
+
+  <script>
+    function cambiarTexto(){
+        document.getElementById("mensaje").innerText="Texto cambiado con JS"
+    }
+  </script>
+</body>
+</html>
