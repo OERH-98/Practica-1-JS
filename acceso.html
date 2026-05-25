@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso</title>
+</head>
+<body>
+    <h1 id="welcomeMessage"></h1>
+
+    <script>
+        //Obtener nombre de usuario y almacenar en una variable
+
+        let nombre = prompt ("Ingrese u nombre ")
+
+            //Mostrar mensaje de bienvenida
+    document.getElementById("welcomeMessage").innerText = "Welcome, to the system 😛 " + nombre
+
+    //Obtener el pais del usuario
+    let pais = prompt ("Ingrese su país")
+    //Mostrar mensaje de bienvenida con el país
+    alert(pais + " es un país interesante")
+
+</script>
+
+
+</body>
+</html>
